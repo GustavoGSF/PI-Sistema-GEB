@@ -8,24 +8,65 @@
     
     <link rel="stylesheet" href="style.css">
 
-    <script src="https://kit.fontawesome.com/adaef60cf8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,600,1,0" />
 </head>
 <body>
     <aside>
-        <h1>GEB</h1>
-        <nav>
-            <ul>
-                <li><a href=""><i class="fa-solid fa-house"></i>Página Inicial</a></li>
-                <li><a href=""><i class="fa-solid fa-file"></i>Documento</a></li>
-                <li><a href=""><i class="fa-solid fa-house"></i>Estoques</a></li>
-                <li><a href=""><i class="fa-solid fa-house"></i>Histórico</a></li>
-                <li><a href=""><i class="fa-solid fa-house"></i>Clientes</a></li>                
-            </ul>
-        </nav>
-        <a href=""></a>
+        <div class="side-bar">
+            <nav>
+                <h1>GEB</h1>
+                <ul>
+                    <li><a href="" class="active">
+                        <span class="material-symbols-rounded">dashboard</span>
+                        <p>Página Inicial</p></a>
+                    </li>
+                    <li><a href="">
+                        <span class="material-symbols-rounded">description</span>
+                        <p>Documentos</p></a>
+                    </li>
+                    <li><a href="">
+                        <span class="material-symbols-rounded">warehouse</span>
+                        <p>Estoques</p></a>
+                    </li>
+                    <li><a href="">
+                        <span class="material-symbols-rounded">history</span>
+                        <p>Histórico</p></a>
+                    </li>
+                    <li><a href="">
+                        <span class="material-symbols-rounded">person_add</span>
+                        <p>Cadastros</p></a>
+                    </li>                
+                </ul>
+            </nav>
+            <div class="settings">
+                <a href="">
+                    <span class="material-symbols-rounded">settings</span>
+                    <p>Configuração</p>
+                </a>
+            </div>
+        </div>
     </aside>
     <main>
+        <div class="box">
+            <header>
+                <p>Sistema da Empresa</p>
+                <p>Olá, <b>Nome da Empresa</b></p>
+            </header>
+            <div class="search-bar">
+                <input type="search" name="busca" id="searchBar">
+            </div>
+            <section class="storages">
 
+            </section>
+            <section class="bns-sche">
+                <div class="bonus">
+
+                </div>
+                <div class="schedulle">
+                    
+                </div>
+            </section>
+        </div>
     </main>
 </body>
 </html>

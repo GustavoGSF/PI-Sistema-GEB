@@ -1,4 +1,11 @@
+/* -------------------- IMPORTS -------------------- */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* -------------------- ROOTS -------------------- */
+
+
+/* -------------------- CONFIGS -------------------- */
 
 * {
     margin: 0;
@@ -12,5 +19,118 @@
 body {
     height: 100vh;
     width: 100vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
+a {
+    color: #ffffff;
+}
+
+/* -------------------- ASIDE -------------------- */
+
+aside {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #292929;
+    height: 100%;
+    width: 18rem;
+    z-index: 1;
+}
+aside .side-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80%;
+    width: 100%;
+}
+
+aside h1 {
+    display: flex;
+    justify-content: center;
+    color: #fdbb64;
+    font-size: 5rem;
+    margin-bottom: 4rem;
+}
+
+aside nav a {
+    display: flex;
+    align-items: center;
+    margin: 2rem;
+    margin-bottom: -1.5rem;
+    gap: 1.3rem;
+    height: 3.5rem;
+    transition: all 300ms ease;
+}
+aside nav span {
+    font-size: 1rem;
+    transition: all 300ms ease;
+}
+aside nav a.active {
+    background-color: #ffffff50;
+    color: #fdbb64;
+    margin-left: 0;
+    margin-right: 0;
+}
+aside nav a.active:before {
+    content: "";
+    width: 0.6rem;
+    height: 100%;
+    background: #fdbb64;
+}
+aside nav a span {
+    font-size: 1.4rem;
+    transition: all 200ms ease;
+}
+aside nav a:hover {
+    color: #fdbb64;
+}
+aside nav a:hover span {
+    margin-left: 0.5rem;
+}
+
+aside .settings a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    border-radius: 10px;
+    gap: 1.3rem;
+    height: 4rem;
+    transition: all 300ms ease;
+    background-color: #1f1f1f;
+}
+aside .settings a span {
+    font-size: 1.4rem;
+    transition: all 100ms ease-out;
+}
+aside .settings a:hover {
+    background-color: #fdbb64;
+    color: #1f1f1f;
+}
+aside .settings a:hover span {
+    margin-left: 0.2rem;
+}
+
+
+main {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+    height: 100%;
+    width: calc(100vw - 15rem);
+    z-index: 1;
+}
+
+main .box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 80%;
+}
