@@ -1,12 +1,6 @@
 # Sistema GEB - Projeto Integrador
  Nesse repositório, se encontra o nosso sistema para o projeto integrador da faculdade, o software se baseia no gerenciamento de vale-equipamento no processo da gestão de paletes.
 
- 
-
-
-
- 
-
  ### O que significa GEB?
  GEB é a abreviação de Gestão de Bônus, esse bônus é uma outra forma como chamamos o vale-equipamentos. 
 
